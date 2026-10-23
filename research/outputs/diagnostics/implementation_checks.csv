@@ -1,0 +1,10 @@
+check,status,detail
+ERC correlated covariance,PASS,Convex ERC meets equal risk budgets; not inverse volatility
+Risk cap with risky BIL and negative covariance,PASS,Feasible hedge is recognized even when pure BIL volatility exceeds 10%
+Infeasible risk cap,PASS,No fictitious riskless SGD cash; minimum-variance feasible-box mix is flagged
+Execution-close accounting,PASS,New positions get no entry-day gain; 100% same-day price rise is excluded
+Drifted positions and actual notional fees,PASS,Self financing; both sales and purchases cost 10 bps
+Historical prefix invariance,PASS,336 earlier schedules unchanged after removing all 2024+ data; max error 0
+Fresh quotes and historical information,PASS,"Every basket has genuine positive-volume equity marks, FX observation, and both exchange sessions"
+Long-only fully invested no leverage,PASS,574 monthly strategy allocations checked
+Old project preserved,PASS,210 frozen source/data/results files unchanged

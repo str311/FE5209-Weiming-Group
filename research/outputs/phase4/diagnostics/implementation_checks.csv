@@ -1,0 +1,12 @@
+Check,Status,Detail
+Original six strategy allocations,PASS,492 monthly allocations match frozen Phase 3; maximum difference 0
+Original six strategies rerun,PASS,"All daily gross/net NAV paths match frozen results, max error 0"
+EWMA unchanged,PASS,"4018 seven-asset covariance entries match frozen matrices, max error 0"
+No future information: prefix invariance,PASS,"240 allocations unchanged when all 2024+ observations are removed, max error 0"
+Same eligibility and BIL timing,PASS,MWRP and MGRP select exactly the same asset sets in every month
+Fixed linear rank budgets,PASS,Every eligible rank receives (k-rank+1)/(k(k+1)/2); budgets sum to one
+Risk budget optimizer,PASS,Maximum assigned-versus-estimated contribution error 3.72e-13; weights nonnegative and fully invested
+Boundary cases and budgets vs capital,PASS,"Single, zero, four/six assets, stable ties, equal-budget equivalence, and high-budget/low-capital counterexample verified"
+Signal and execution clock,PASS,Every trade uses fresh common-session prices; signal is available before Singapore execution close
+Unchanged execution and transaction costs,PASS,"No entry-day return, both sides charged on actual notional, self-financing costs solved after position drift"
+Frozen Phase 3 preserved,PASS,127 original source/data/report/result files retain their original SHA256 values

@@ -1,0 +1,62 @@
+{
+  "currency": "SGD",
+  "symbol": "ES3.SI",
+  "exchangeName": "SES",
+  "fullExchangeName": "SES",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1199235600,
+  "regularMarketTime": 1792487070,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 28800,
+  "timezone": "SGT",
+  "exchangeTimezoneName": "Asia/Singapore",
+  "regularMarketPrice": 5.463,
+  "regularMarketChangePercent": -0.037,
+  "fulldayPrice": 5.463,
+  "fulldayChange": -0.002,
+  "fulldayChangePercent": -0.037,
+  "fiftyTwoWeekHigh": 5.92,
+  "fiftyTwoWeekLow": 4.403,
+  "regularMarketDayHigh": 5.497,
+  "regularMarketDayLow": 5.46,
+  "regularMarketVolume": 639991,
+  "longName": "State Street SPDR Straits Times Index ETF",
+  "shortName": "SS SPDR STI ETF",
+  "chartPreviousClose": 3.23,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "SGT",
+      "start": 1792456200,
+      "end": 1792458000,
+      "gmtoffset": 28800
+    },
+    "regular": {
+      "timezone": "SGT",
+      "start": 1792458000,
+      "end": 1792486800,
+      "gmtoffset": 28800
+    },
+    "post": {
+      "timezone": "SGT",
+      "start": 1792486800,
+      "end": 1792486800,
+      "gmtoffset": 28800
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

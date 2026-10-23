@@ -1,0 +1,62 @@
+{
+  "currency": "USD",
+  "symbol": "SPY",
+  "exchangeName": "PCX",
+  "fullExchangeName": "NYSEArca",
+  "instrumentType": "ETF",
+  "firstTradeDate": 728317800,
+  "regularMarketTime": 1792509586,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 769.71,
+  "regularMarketChangePercent": 0.421,
+  "fulldayPrice": 769.71,
+  "fulldayChange": 3.23,
+  "fulldayChangePercent": 0.421,
+  "fiftyTwoWeekHigh": 781.62,
+  "fiftyTwoWeekLow": 629.28,
+  "regularMarketDayHigh": 772.275,
+  "regularMarketDayLow": 764.26,
+  "regularMarketVolume": 14325472,
+  "longName": "State Street SPDR S&P 500 ETF Trust",
+  "shortName": "State Street SPDR S&P 500 ETF T",
+  "chartPreviousClose": 184.69,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "end": 1792503000,
+      "start": 1792483200,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "end": 1792526400,
+      "start": 1792503000,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "end": 1792540800,
+      "start": 1792526400,
+      "gmtoffset": -14400
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

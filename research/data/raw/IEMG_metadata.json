@@ -1,0 +1,62 @@
+{
+  "currency": "USD",
+  "symbol": "IEMG",
+  "exchangeName": "PCX",
+  "fullExchangeName": "NYSEArca",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1351085400,
+  "regularMarketTime": 1792509587,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 77.425,
+  "regularMarketChangePercent": 0.11,
+  "fulldayPrice": 77.425,
+  "fulldayChange": 0.085,
+  "fulldayChangePercent": 0.11,
+  "fiftyTwoWeekHigh": 86.49,
+  "fiftyTwoWeekLow": 64.67,
+  "regularMarketDayHigh": 77.765,
+  "regularMarketDayLow": 76.62,
+  "regularMarketVolume": 2746346,
+  "longName": "iShares Core MSCI Emerging Markets ETF",
+  "shortName": "iShares Core MSCI Emerging Mark",
+  "chartPreviousClose": 49.81,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "start": 1792483200,
+      "end": 1792503000,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "start": 1792503000,
+      "end": 1792526400,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "start": 1792526400,
+      "end": 1792540800,
+      "gmtoffset": -14400
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

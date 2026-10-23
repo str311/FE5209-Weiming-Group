@@ -1,0 +1,62 @@
+{
+  "currency": "USD",
+  "symbol": "BIL",
+  "exchangeName": "PCX",
+  "fullExchangeName": "NYSEArca",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1180531800,
+  "regularMarketTime": 1792509585,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 91.585,
+  "regularMarketChangePercent": 0.016,
+  "fulldayPrice": 91.585,
+  "fulldayChange": 0.015,
+  "fulldayChangePercent": 0.016,
+  "fiftyTwoWeekHigh": 91.77,
+  "fiftyTwoWeekLow": 91.26,
+  "regularMarketDayHigh": 91.59,
+  "regularMarketDayLow": 91.58,
+  "regularMarketVolume": 2418721,
+  "longName": "State Street SPDR Bloomberg 1-3 Month T-Bill ETF",
+  "shortName": "State Street SPDR Bloomberg 1-3",
+  "chartPreviousClose": 91.54,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "start": 1792483200,
+      "end": 1792503000,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "start": 1792503000,
+      "end": 1792526400,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "start": 1792526400,
+      "end": 1792540800,
+      "gmtoffset": -14400
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "currency": "SGD",
+  "symbol": "SGD=X",
+  "exchangeName": "CCY",
+  "fullExchangeName": "CCY",
+  "instrumentType": "CURRENCY",
+  "firstTradeDate": 1070236800,
+  "regularMarketTime": 1792509589,
+  "hasPrePostMarketData": false,
+  "gmtoffset": 3600,
+  "timezone": "BST",
+  "exchangeTimezoneName": "Europe/London",
+  "regularMarketPrice": 1.2774,
+  "regularMarketChangePercent": -0.1478,
+  "fulldayPrice": 1.2774,
+  "fulldayChange": -0.0019,
+  "fulldayChangePercent": -0.1478,
+  "fiftyTwoWeekHigh": 1.3096,
+  "fiftyTwoWeekLow": 1.2588,
+  "regularMarketDayHigh": 1.28,
+  "regularMarketDayLow": 1.2763,
+  "regularMarketVolume": 0,
+  "longName": "USD/SGD",
+  "shortName": "USD/SGD",
+  "chartPreviousClose": 1.2623,
+  "priceHint": 4,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "BST",
+      "end": 1792450800,
+      "start": 1792450800,
+      "gmtoffset": 3600
+    },
+    "regular": {
+      "timezone": "BST",
+      "end": 1792537140,
+      "start": 1792450800,
+      "gmtoffset": 3600
+    },
+    "post": {
+      "timezone": "BST",
+      "end": 1792537140,
+      "start": 1792537140,
+      "gmtoffset": 3600
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

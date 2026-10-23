@@ -1,0 +1,7 @@
+Strategy,Maximum_NAV_Difference,Status
+Equal Weight,0.0,PASS
+EWMA Risk Parity,0.0,PASS
+Dual Momentum,0.0,PASS
+Gated Equal Weight,0.0,PASS
+MGRP-Base,0.0,PASS
+MGRP-VolTarget,0.0,PASS

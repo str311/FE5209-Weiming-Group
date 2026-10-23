@@ -1,0 +1,62 @@
+{
+  "currency": "USD",
+  "symbol": "PDBC",
+  "exchangeName": "NGM",
+  "fullExchangeName": "NasdaqGM",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1415370600,
+  "regularMarketTime": 1792509586,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 19.88,
+  "regularMarketChangePercent": -0.946,
+  "fulldayPrice": 19.88,
+  "fulldayChange": -0.19,
+  "fulldayChangePercent": -0.946,
+  "fiftyTwoWeekHigh": 20.175,
+  "fiftyTwoWeekLow": 13.105,
+  "regularMarketDayHigh": 20.13,
+  "regularMarketDayLow": 19.764,
+  "regularMarketVolume": 1676273,
+  "longName": "Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF",
+  "shortName": "Invesco Optimum Yield Diversifi",
+  "chartPreviousClose": 25.16,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "end": 1792503000,
+      "start": 1792483200,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "end": 1792526400,
+      "start": 1792503000,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "end": 1792540800,
+      "start": 1792526400,
+      "gmtoffset": -14400
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}

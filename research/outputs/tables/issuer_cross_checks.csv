@@ -1,0 +1,7 @@
+ticker,item,downloaded_value,issuer_value,difference,tolerance,source,checked_on
+IEMG,2021 USD market-price total return,-0.006385403923803379,-0.0061,-0.00028540392380337846,0.001,https://www.ishares.com/us/products/244050/ishares-msci-emerging-markets-etf,2026-10-20
+IEMG,2022 USD market-price total return,-0.1997980688184886,-0.1997,-9.806881848861693e-05,0.001,https://www.ishares.com/us/products/244050/ishares-msci-emerging-markets-etf,2026-10-20
+IEMG,2023 USD market-price total return,0.11524647654867337,0.1157,-0.0004535234513266262,0.001,https://www.ishares.com/us/products/244050/ishares-msci-emerging-markets-etf,2026-10-20
+IEMG,2024 USD market-price total return,0.06496601380952072,0.0651,-0.00013398619047928773,0.001,https://www.ishares.com/us/products/244050/ishares-msci-emerging-markets-etf,2026-10-20
+IEMG,2025 USD market-price total return,0.32563433053183966,0.3256,3.433053183965473e-05,0.001,https://www.ishares.com/us/products/244050/ishares-msci-emerging-markets-etf,2026-10-20
+PDBC,2024-12-23 USD distribution per share,0.575,0.57471,0.00028999999999990145,0.001,https://www.invesco.com/us-rest/contentdetail?contentId=30764e28-1344-4e69-9e99-2bad61fa3a53&dnsName=us,2026-10-20

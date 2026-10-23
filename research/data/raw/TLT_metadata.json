@@ -1,0 +1,62 @@
+{
+  "currency": "USD",
+  "symbol": "TLT",
+  "exchangeName": "NGM",
+  "fullExchangeName": "NasdaqGM",
+  "instrumentType": "ETF",
+  "firstTradeDate": 1028035800,
+  "regularMarketTime": 1792509586,
+  "hasPrePostMarketData": true,
+  "gmtoffset": -14400,
+  "timezone": "EDT",
+  "exchangeTimezoneName": "America/New_York",
+  "regularMarketPrice": 80.096,
+  "regularMarketChangePercent": 0.8,
+  "fulldayPrice": 80.096,
+  "fulldayChange": 0.636,
+  "fulldayChangePercent": 0.8,
+  "fiftyTwoWeekHigh": 92.19,
+  "fiftyTwoWeekLow": 76.43,
+  "regularMarketDayHigh": 80.37,
+  "regularMarketDayLow": 79.98,
+  "regularMarketVolume": 12652015,
+  "longName": "iShares 20+ Year Treasury Bond ETF",
+  "shortName": "iShares 20+ Year Treasury Bond ",
+  "chartPreviousClose": 101.86,
+  "priceHint": 2,
+  "currentTradingPeriod": {
+    "pre": {
+      "timezone": "EDT",
+      "start": 1792483200,
+      "end": 1792503000,
+      "gmtoffset": -14400
+    },
+    "regular": {
+      "timezone": "EDT",
+      "start": 1792503000,
+      "end": 1792526400,
+      "gmtoffset": -14400
+    },
+    "post": {
+      "timezone": "EDT",
+      "start": 1792526400,
+      "end": 1792540800,
+      "gmtoffset": -14400
+    }
+  },
+  "dataGranularity": "1d",
+  "range": "",
+  "validRanges": [
+    "1d",
+    "5d",
+    "1mo",
+    "3mo",
+    "6mo",
+    "1y",
+    "2y",
+    "5y",
+    "10y",
+    "ytd",
+    "max"
+  ]
+}
