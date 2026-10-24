@@ -26,7 +26,17 @@ Historical outcomes have informed strategy development, so the recent-month wind
 - [Window manifest](research/outputs/windows/tables/window_manifest.csv): actual return dates, opening baselines and observation counts.
 - [Daily results](research/outputs/windows/daily/) and [trade records](research/outputs/windows/trades/).
 - [Implementation checks](research/outputs/windows/diagnostics/implementation_checks.csv).
-- [Updated presentation](presentation/updated/MWRP_Window_Updated_Final.pptx): the original slide style with the revised windows and short-window results.
+- [Updated presentation](presentation/MWRP_Window_Updated_Final.pptx): the original slide style with the revised windows and short-window results.
+
+## Submission files and datasets
+
+- [Member contributions](Member_Contributions.md): proposed equal shares of 20% for each of the five members, with research and technical coordination roles for Yujing Wang and Tianren Sun. Members should confirm this allocation against their actual work before submission.
+- `research/run_phase4.py` and `research/src/`: current entry point and Python source code.
+- [Daily closing prices](research/data/processed/native_close_prices.csv): SPY, ES3.SI, TLT, GLD, IEMG, PDBC and BIL in their original currencies; ES3.SI is in SGD and the other six ETFs are in USD.
+- [Adjusted prices](research/data/processed/native_adjusted_prices.csv) and [SGD per USD exchange rates](research/data/processed/usdsgd.csv): inputs for total-return and currency calculations.
+- [Data manifest](research/data/data_manifest.csv) and `research/data/raw/`: source URLs, download metadata, checksums and archived source data. The default run uses these local files without downloading data.
+
+The submission archive includes the final editable presentation, source code, datasets, saved results and documentation. Hidden files and directories, virtual environments, caches, temporary files, older presentation files and ZIP archives are excluded.
 
 ## Run
 
@@ -47,7 +57,7 @@ python research/run_phase4.py --no-figures
 ```
 
 Window definitions are centralized in `research/src/evaluation_windows.py`; the current entry point is `research/run_phase4.py`.
-The original PDF, original PPT, `research/outputs/phase4/` and earlier reports are archived versions with earlier evaluation boundaries.
+`research/outputs/phase4/` and earlier reports are archived versions with earlier evaluation boundaries.
 `research/run.py` and the earlier report/chart modules in `research/src/phase4/` belong to the archived workflow. Use the entry point above for current results.
 
 Repository documentation, source comments, generated reports and explanatory labels are maintained in English.
