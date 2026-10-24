@@ -1,0 +1,66 @@
+{
+  "version": "Phase4 fixed linear-ranking risk budgets",
+  "assets": [
+    "SPY",
+    "ES3.SI",
+    "TLT",
+    "GLD",
+    "IEMG",
+    "PDBC",
+    "BIL"
+  ],
+  "eligibility": "same strict 6-calendar-month SGD TR(asset) minus TR(BIL) > 0",
+  "budget": "(k-rank+1)/(k*(k+1)/2), ranks within eligible assets only",
+  "ties": [
+    "SPY",
+    "ES3.SI",
+    "TLT",
+    "GLD",
+    "IEMG",
+    "PDBC"
+  ],
+  "lambda_": 0.94,
+  "initialization": 252,
+  "shrinkage": 0.01,
+  "volatility_target": false,
+  "parameter_search": false,
+  "new_strategies": [
+    "MWRP"
+  ],
+  "timing": "unchanged: signal next day 06:00 UTC; second common fresh session next month close basket",
+  "costs_bps": [
+    5,
+    10,
+    25
+  ],
+  "main_bps": 10,
+  "periods": {
+    "history_2020_2023": [
+      "2020-01-01",
+      "2023-12-31"
+    ],
+    "history_2024_2026Sep18": [
+      "2024-01-01",
+      "2026-09-18"
+    ],
+    "history_combined": [
+      "2020-01-01",
+      "2026-09-18"
+    ],
+    "recent_month_test": [
+      "2026-09-19",
+      "2026-10-19"
+    ],
+    "course_october_partial": [
+      "2026-10-01",
+      "2026-10-19"
+    ]
+  },
+  "status": "Retrospective historical evaluation after strategy development; not an untouched prospective test. October is partial, not the full course test.",
+  "preparation": [
+    "2014-11-07",
+    "2019-12-31"
+  ],
+  "holdings": "continuous; rebase NAV only",
+  "risk_evaluation": "complete cycles fully within each window"
+}

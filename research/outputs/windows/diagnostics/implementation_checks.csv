@@ -1,0 +1,9 @@
+Check,Status,Detail
+Window boundaries,PASS,History A/B and recent test disjoint; combined=A+B; October explicitly a subset
+Test quotes,PASS,"21 dates, all ETF and FX quotes fresh; baseline 2026-09-18"
+Continuous NAV and accounting,PASS,All five NAV paths match archive; test uses Sep18 opening and one normal rebalance; P&L sums checked
+Partial-month handling,PASS,Both short windows have no complete calendar month; monthly win rate is NA
+No future observations in allocations,PASS,405 configurations unchanged after removing observations after Sep18
+Allocation and execution,PASS,Budget error <= 3.72e-13; long-only fully invested; historical signals and fresh quotes
+Risk-window containment,PASS,No cross-boundary or incomplete cycle enters forecast-error summaries
+Archived files preserved,PASS,"109 input, Phase4 output and presentation files unchanged"

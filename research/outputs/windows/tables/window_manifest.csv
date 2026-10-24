@@ -1,0 +1,6 @@
+Period,Label,Start,End,Baseline,First_Return,Last_Return,Observations,Overlap
+history_2020_2023,历史回测 A,2020-01-01,2023-12-31,2019-12-31,2020-01-03,2023-12-29,1031,none
+history_2024_2026Sep18,历史回测 B,2024-01-01,2026-09-18,2023-12-29,2024-01-02,2026-09-18,702,none
+history_combined,历史合并期（A+B）,2020-01-01,2026-09-18,2019-12-31,2020-01-03,2026-09-18,1733,A+B
+recent_month_test,最近一个月历史测试,2026-09-19,2026-10-19,2026-09-18,2026-09-21,2026-10-19,21,none
+course_october_partial,课程十月阶段性评价,2026-10-01,2026-10-19,2026-09-30,2026-10-01,2026-10-19,13,subset of recent_month_test
