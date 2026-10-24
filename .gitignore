@@ -5,3 +5,12 @@ __pycache__/
 .DS_Store
 ._*
 reproduction_runs/
+
+# Presentation build, chart-data snapshots and validation intermediates
+/.presentation-build/
+/.chart-data-*/
+/.codex-finalizer/
+
+# PowerPoint / WPS temporary lock files
+.~*.pptx
+~$*.pptx
